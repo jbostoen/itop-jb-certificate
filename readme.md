@@ -1,4 +1,13 @@
 # jb-certificate-main
+Copyright (C) 2019-2020 Jeffrey Bostoen
+
+[![License](https://img.shields.io/github/license/jbostoen/iTop-custom-extensions)](https://github.com/jbostoen/iTop-custom-extensions/blob/master/license.md)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jbostoen)
+🍻 ☕
+
+Need assistance with iTop or one of its extensions?  
+Need custom development?  
+Please get in touch to discuss the terms: **jbostoen.itop@outlook.com**
 
 ## What?
 Adds Certificate class and some link classes. Keep track of all sorts of certificates generated for FunctionalCIs (Server, VirtualMachine) and WebServers.
@@ -22,9 +31,4 @@ It also integrates with the Software Management extension so a certificate can b
   * provider_org_id -> issuer_org_id
   * date_creation -> date_not_valid_before
   * date_expiration -> date_not_valid_after
-
-## License
-https://www.gnu.org/licenses/gpl-3.0.en.html
-Copyright (C) 2019-2020 Jeffrey Bostoen
-
-
+  
