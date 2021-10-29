@@ -1,5 +1,6 @@
 # jb-certificate-main
-Copyright (C) 2019-2020 Jeffrey Bostoen
+
+Copyright (C) 2019-2021 Jeffrey Bostoen
 
 [![License](https://img.shields.io/github/license/jbostoen/iTop-custom-extensions)](https://github.com/jbostoen/iTop-custom-extensions/blob/master/license.md)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jbostoen)
@@ -7,7 +8,7 @@ Copyright (C) 2019-2020 Jeffrey Bostoen
 
 Need assistance with iTop or one of its extensions?  
 Need custom development?  
-Please get in touch to discuss the terms: **jbostoen.itop@outlook.com**
+Please get in touch to discuss the terms: **info@jeffreybostoen.be** / https://jeffreybostoen.be
 
 ## What?
 Adds Certificate class and some link classes. Keep track of all sorts of certificates generated for FunctionalCIs (Server, VirtualMachine) and WebServers.
@@ -19,7 +20,7 @@ It also integrates with the Software Management extension so a certificate can b
 * add new Class Certificate, with relations (impacts/depends on)
 * add tabs to existing classes to show relations: link Certificate to FunctionalCI (Server, VirtualMachine, WebServer)
 * adds additional changes to datamodel based upon installation of another extension
-* using the PrefillCreationForm() method
+* using the ```PrefillCreationForm()``` method
 
 ## Upgrade notes
 
