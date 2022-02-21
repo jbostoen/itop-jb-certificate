@@ -55,6 +55,16 @@
 					<sql>date_not_after</sql>
 					<is_null_allowed>false</is_null_allowed>
 				</field>
+				<field id="status" xsi:type="AttributeEnum">
+					<sql>status</sql>
+					<is_null_allowed>true</is_null_allowed>
+					<default_value>production</default_value>
+					<values>
+						<value id="implementation">implementation</value>
+						<value id="obsolete">obsolete</value>
+						<value id="production">production</value>
+					</values>
+				</field>
 				<field id="password" xsi:type="AttributeEncryptedString">
 					<sql>password</sql>
 					<default_value/>
@@ -226,6 +236,9 @@
 										<item id="renewal">
 											<rank>91</rank>
 										</item>
+										<item id="status">
+											<rank>101</rank>
+										</item>
 									</items>
 								</item>
 								<item id="functionalcis_list">
@@ -324,6 +337,9 @@
 						<item id="password">
 							<rank>81</rank>
 						</item>
+						<item id="status">
+							<rank>101</rank>
+						</item>
 					</items>
 				</search>
 				<default_search>
@@ -376,6 +392,9 @@
 						</item>
 						<item id="password">
 							<rank>81</rank>
+						</item>
+						<item id="status">
+							<rank>101</rank>
 						</item>
 					</items>
 				</list>
