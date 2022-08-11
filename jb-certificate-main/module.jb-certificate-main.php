@@ -10,7 +10,7 @@
 
 SetupWebPage::AddModule(
         __FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-        'jb-certificate-main/2.6.200805',
+        'jb-certificate-main/2.7.200805',
         array(
                 // Identification
                 //
@@ -19,7 +19,8 @@ SetupWebPage::AddModule(
 
                 // Setup
                 //
-                'dependencies' => array( 
+                'dependencies' => array(
+					'itop-config-mgmt/2.7.0',
                 ),
                 'mandatory' => false,
                 'visible' => true,
