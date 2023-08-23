@@ -513,16 +513,6 @@
 
 		<!-- Add Certificates tab to Server, VirtualMachine, WebServer objects -->
 		<class id="Server">
-			<fields>
-				<field id="certificates_list" xsi:type="AttributeLinkedSetIndirect" _delta="define">
-					<linked_class>lnkCertificateToFunctionalCI</linked_class>
-					<ext_key_to_me>functionalci_id</ext_key_to_me>
-					<ext_key_to_remote>certificate_id</ext_key_to_remote>
-					<duplicates>false</duplicates>
-					<count_min>0</count_min>
-					<count_max>0</count_max>
-				</field>
-			</fields>
 			<presentation>
 				<details>
 					<items>
@@ -534,16 +524,6 @@
 			</presentation>
 		</class>
 		<class id="VirtualMachine">
-			<fields>
-				<field id="certificates_list" xsi:type="AttributeLinkedSetIndirect" _delta="define">
-					<linked_class>lnkCertificateToFunctionalCI</linked_class>
-					<ext_key_to_me>functionalci_id</ext_key_to_me>
-					<ext_key_to_remote>certificate_id</ext_key_to_remote>
-					<duplicates>false</duplicates>
-					<count_min>0</count_min>
-					<count_max>0</count_max>
-				</field>
-			</fields>
 			<presentation>
 				<details>
 					<items>
@@ -555,16 +535,6 @@
 			</presentation>
 		</class>
 		<class id="WebServer">
-			<fields>
-				<field id="certificates_list" xsi:type="AttributeLinkedSetIndirect" _delta="define">
-					<linked_class>lnkCertificateToFunctionalCI</linked_class>
-					<ext_key_to_me>functionalci_id</ext_key_to_me>
-					<ext_key_to_remote>certificate_id</ext_key_to_remote>
-					<duplicates>false</duplicates>
-					<count_min>0</count_min>
-					<count_max>0</count_max>
-				</field>
-			</fields>
 			<presentation>
 				<details>
 					<items>
@@ -577,6 +547,16 @@
 		</class>
 		
 		<class id="FunctionalCI">
+			<fields>
+				<field id="certificates_list" xsi:type="AttributeLinkedSetIndirect" _delta="define">
+					<linked_class>lnkCertificateToFunctionalCI</linked_class>
+					<ext_key_to_me>functionalci_id</ext_key_to_me>
+					<ext_key_to_remote>certificate_id</ext_key_to_remote>
+					<duplicates>false</duplicates>
+					<count_min>0</count_min>
+					<count_max>0</count_max>
+				</field>
+			</fields>
 			<relations>
 				<relation id="impacts">
 					<neighbours>
