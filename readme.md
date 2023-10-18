@@ -32,4 +32,8 @@ It also integrates with the Software Management extension so a certificate can b
   * provider_org_id -> issuer_org_id
   * date_creation -> date_not_valid_before
   * date_expiration -> date_not_valid_after
-  
+
+
+  ## Contributors
+
+  * [dw-itomig](https://github.com/dw-itomig)
